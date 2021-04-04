@@ -9,3 +9,39 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Template: coeur
 */
+
+strong {
+    font-weight: 500;
+}
+
+.blog-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blog-header > .container {
+    height: 360px;
+}
+
+nav.navbar-default {
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+
+nav.navbar-default .navbar-nav > li > a,
+nav.navbar-default .navbar-nav > li {
+    color: #1abc9c;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+nav.navbar-default .navbar-nav > .active > a {
+    background-color: #F9F9F9;
+}
+
+.navbar-collapse.collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
