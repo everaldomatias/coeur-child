@@ -45,3 +45,37 @@ nav.navbar-default .navbar-nav > .active > a {
     padding-left: 0;
     padding-right: 0;
 }
+
+@media (max-width: 767px) {
+
+    .blog-header button.navbar-toggle,
+    .blog-header button.navbar-toggle:hover,
+    .blog-header button.navbar-toggle.collapsed {
+        background-color: transparent;
+        border: 0;
+    }
+
+    .blog-header button.navbar-toggle .icon-bar {
+        background-color: #000000;
+    }
+
+    .blog-header .navbar-collapse {
+        text-align: left;
+    }
+
+    .blog-header .navbar-collapse ul.navbar-nav {
+        margin-left: 0;
+    }
+
+    .blog-header .navbar-collapse .navbar-nav > li > a {
+        color: #1abc9c !important;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .blog-header .navbar-collapse .navbar-nav > .active > a,
+    .blog-header .navbar-collapse .navbar-nav > .active > a:hover {
+        background-color: transparent;
+        color: #1abc9c !important;
+    }
+}
